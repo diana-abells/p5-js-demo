@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-  background(255,0);
+  background(255,128,128, 128);
   
   
   var n = 300; //number of times loop runs - also number of dots generated
@@ -37,6 +37,6 @@ function mouseMoved() {
 }
 
 function mouseClicked() {
-	clear();
+  clear();
   redraw();
 }
