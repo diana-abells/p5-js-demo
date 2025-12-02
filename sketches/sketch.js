@@ -17,7 +17,7 @@ function setup() {
 }
 
 function draw() {
-  background(75,184,255); //blue sky color
+  background(0,0); //blue sky color
 
   var n = 10; //number of times loop runs
 
@@ -37,5 +37,6 @@ function draw() {
 }
 
 function mouseClicked() {
+	clear();
   redraw();
 }// JavaScript Document
